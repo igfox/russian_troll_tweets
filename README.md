@@ -18,8 +18,8 @@ NBC recently published a dataset of over 200k russia-connected tweets deleted fr
 
 
 ```python
-tweets = pd.read_csv('/data/ifox/russian_tweets_data/tweets.csv')
-users = pd.read_csv('/data/ifox/russian_tweets_data/users.csv')
+tweets = pd.read_csv('{YOUR/DATA/PATH/HERE}/tweets.csv')
+users = pd.read_csv('{YOUR/DATA/PATH/HERE}/users.csv')
 ```
 
 Let's start by taking a look at the data available:
